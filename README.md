@@ -1,6 +1,6 @@
 # Go for JavaScript Developers
 
-In this repo, you will learn more about about Golang and how it works
+In this repo, you will learn more about about Golang.
 
 ## Story
 
@@ -24,12 +24,12 @@ following commands:
 
 ```sh
 which go
-=> /usr/local/go
+/usr/local/go
 ```
 
 ```sh
 go version
-=>go version go1.13.1 darwi/amd64
+go version go1.13.1 darwi/amd64
 ```
 
 #### Modify Your PATH 
@@ -54,10 +54,10 @@ export PATH=$PATH:$GOBIN
 
 ```bash
 echo $PATH
-=> ..../usr/local/go/bin: 
+ ..../usr/local/go/bin: 
 
 echo $GOPATH
-=> /Users/brennamartenson/go
+ /Users/brennamartenson/go
 ```
 
 #### Create a go workspace
@@ -87,7 +87,7 @@ We just told Go that whenever we run a Go command in our terminal (ie: `go run m
 
 ```bash
 go version 
-=> go version go1.12.1 darwin/amd64
+ go version go1.12.1 darwin/amd64
 ```
 
 2. Uninstall Go
@@ -100,7 +100,7 @@ sudo rm -rf /usr/local/go
 
 ```bash
 go version
-=> -bash: go: command not found
+ -bash: go: command not found
 ```
 
 4. Visit [golang.org/dl](https://golang.org/dl) to install the latest Go.
