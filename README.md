@@ -1,4 +1,4 @@
-# Go for JavaScript Developers
+# Go for TypeScript Developers
 
 In this repo, you will learn more about about Golang.
 
@@ -64,22 +64,23 @@ echo $GOPATH
 
 We just told Go that whenever we run a Go command in our terminal (ie: `go run main.go`), it should look for those files in the GOPATH, which typically defaults to `/Users/yourusername/go`. 
 
-1. Navigate to your home directory (for me that is `/Users/brennamartenson`), and create a `go` directory with `mkdir go`.
+1. Navigate to your home directory and create a `go` directory with `mkdir go`.
 
-2. Change into the go directory with `cd go`, then `mkdir src`, and change into the directory with `cd src`.
+2. Change into the go directory with `cd go`
 
 3. Clone the repo for this course into the `go` directory.
 
-`git clone https://github.com/martensonbj/fem-intro-to-go`
+`git clone https://github.com/svngoku/go-for-js-devs.git`
 
 #### Verify Everything Is Good To GO 😉
 
-1. Change into the `go/fem-intro-to-go` directory
+1. Change into the `cd go-for-js-devs` directory
 
 2. Run `go run main.go`
 
-3. If all went well, you should see `"Hello Front End Masters!"`
+3. If all went well, you should see `"Hello World!"`
 
+4. Init the project with this command `go mod tidy` at the source of the project.
 
 ### Upgrading to Go 1.13
 
@@ -87,7 +88,7 @@ We just told Go that whenever we run a Go command in our terminal (ie: `go run m
 
 ```bash
 go version 
- go version go1.12.1 darwin/amd64
+go version go1.12.1 darwin/amd64
 ```
 
 2. Uninstall Go
@@ -100,7 +101,7 @@ sudo rm -rf /usr/local/go
 
 ```bash
 go version
- -bash: go: command not found
+-bash: go: command not found
 ```
 
 4. Visit [golang.org/dl](https://golang.org/dl) to install the latest Go.
