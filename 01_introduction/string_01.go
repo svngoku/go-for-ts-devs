@@ -5,6 +5,14 @@ import (
 	"strings"
 )
 
+func containing() {
+    fmt.Println(strings.Contains("seafood", "foo"))
+	fmt.Println(strings.Contains("seafood", "bar"))
+	fmt.Println(strings.Contains("seafood", ""))
+	fmt.Println(strings.Contains("", ""))
+}
+
+
 func comparaison() {
 	fmt.Println(strings.Compare("a", "b"))
 	fmt.Println(strings.Compare("a", "a"))
@@ -14,4 +22,6 @@ func comparaison() {
 
 func main() {
     comparaison()
+    fmt.Println("***************")
+    containing()
 }
