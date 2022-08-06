@@ -6,5 +6,5 @@ import "fmt"
 
 // Main
 func main() {
-	fmt.Println("Hello from go")
+	fmt.Println("Hello from golang")
 }
